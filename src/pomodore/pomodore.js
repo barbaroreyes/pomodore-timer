@@ -39,7 +39,9 @@ function Pomodoro() {
                 <span className="oi oi-minus" />
                 down
               </button>
+              <br/>
               {focusUp}
+              <br/>
               {/* TODO: Implement increasing focus duration  and disable during a focus or break session */}
               <button
                 type="button"
@@ -66,16 +68,20 @@ function Pomodoro() {
                   type="button"
                   className="btn btn-secondary"
                   data-testid="decrease-break"
+                  onClick={() => setbreackUp(breackUp -1)}
                 >
                   <span className="oi oi-minus" />
                   down
                 </button>
+                <br/>
                 {breackUp}
+                <br/>
                 {/* TODO: Implement increasing break duration and disable during a focus or break session*/}
                 <button
                   type="button"
                   className="btn btn-secondary"
                   data-testid="increase-break"
+                  onClick={() => setbreackUp(breackUp + 1)}
                 >
                   <span className="oi oi-plus" />
                   up
