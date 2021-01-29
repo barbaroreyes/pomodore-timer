@@ -5,6 +5,8 @@ import useInterval from "./utils/useInterval";
 function Pomodoro() {
   // Timer starts out paused
   const [isTimerRunning, setIsTimerRunning] = useState(false);
+  const [focusUp,setFocusUp] = useState(25)
+  const [breackUp,setbreackUp] = useState(5)
 
   useInterval(
     () => {
@@ -32,16 +34,21 @@ function Pomodoro() {
                 type="button"
                 className="btn btn-secondary"
                 data-testid="decrease-focus"
+                onClick ={() => setFocusUp(focusUp - 1)}
               >
                 <span className="oi oi-minus" />
+                down
               </button>
+              {focusUp}
               {/* TODO: Implement increasing focus duration  and disable during a focus or break session */}
               <button
                 type="button"
                 className="btn btn-secondary"
                 data-testid="increase-focus"
+                onClick ={() => setFocusUp(focusUp + 1)}
               >
                 <span className="oi oi-plus" />
+               uP
               </button>
             </div>
           </div>
@@ -61,7 +68,9 @@ function Pomodoro() {
                   data-testid="decrease-break"
                 >
                   <span className="oi oi-minus" />
+                  down
                 </button>
+                {breackUp}
                 {/* TODO: Implement increasing break duration and disable during a focus or break session*/}
                 <button
                   type="button"
@@ -69,6 +78,7 @@ function Pomodoro() {
                   data-testid="increase-break"
                 >
                   <span className="oi oi-plus" />
+                  up
                 </button>
               </div>
             </div>
@@ -96,6 +106,7 @@ function Pomodoro() {
                   "oi-media-pause": isTimerRunning,
                 })}
               />
+              Play
             </button>
             {/* TODO: Implement stopping the current focus or break session and disable when there is no active session */}
             <button
@@ -104,6 +115,7 @@ function Pomodoro() {
               title="Stop the session"
             >
               <span className="oi oi-media-stop" />
+              Stop
             </button>
           </div>
         </div>
