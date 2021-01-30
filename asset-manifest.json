@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pomodore-timer/static/css/main.9f01d258.chunk.css",
+    "main.css": "/pomodore-timer/static/css/main.b386ea7f.chunk.css",
     "main.js": "/pomodore-timer/static/js/main.f4612390.chunk.js",
     "main.js.map": "/pomodore-timer/static/js/main.f4612390.chunk.js.map",
     "runtime-main.js": "/pomodore-timer/static/js/runtime-main.eac14e2b.js",
@@ -10,14 +10,14 @@
     "static/js/3.587bdd47.chunk.js": "/pomodore-timer/static/js/3.587bdd47.chunk.js",
     "static/js/3.587bdd47.chunk.js.map": "/pomodore-timer/static/js/3.587bdd47.chunk.js.map",
     "index.html": "/pomodore-timer/index.html",
-    "static/css/main.9f01d258.chunk.css.map": "/pomodore-timer/static/css/main.9f01d258.chunk.css.map",
+    "static/css/main.b386ea7f.chunk.css.map": "/pomodore-timer/static/css/main.b386ea7f.chunk.css.map",
     "static/js/2.f7b3d904.chunk.js.LICENSE.txt": "/pomodore-timer/static/js/2.f7b3d904.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/pomodore-timer/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.eac14e2b.js",
     "static/js/2.f7b3d904.chunk.js",
-    "static/css/main.9f01d258.chunk.css",
+    "static/css/main.b386ea7f.chunk.css",
     "static/js/main.f4612390.chunk.js"
   ]
 }
