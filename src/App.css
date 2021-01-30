@@ -16,7 +16,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
   .App-one{
-    animation: move_eye 1s linear 1s infinite alternate ;  
+    animation: App-logo 1s linear 1s infinite alternate ;  
   }
 }
 
