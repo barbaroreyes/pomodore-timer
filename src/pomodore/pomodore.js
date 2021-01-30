@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import useInterval from "../utils/useInterval";
 import Duration from "./Duration";
 import Play from "./Play";
