@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-//import classNames from "../utils/class-names";
+
 import useInterval from "../utils/useInterval";
 import Duration from "./Duration";
 import Play from "./Play";
@@ -69,7 +69,7 @@ function Pomodoro() {
   }
 
   return (
-    <div>
+    
       <div className="pomodoro">
         <div className="row">
           <div className="col">
@@ -114,7 +114,7 @@ function Pomodoro() {
           currentSession={session.currentSession}
         />
       </div>
-    </div>
+    
   );
 }
 
